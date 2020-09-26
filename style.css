@@ -1,0 +1,37 @@
+body {
+    background-color: #974E8D;
+    padding: 0;
+    margin: 0;
+}
+
+.container {   
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14rem;
+}
+
+@media (max-width: 1328px) {
+    .container {
+        font-size: 10rem;
+        position: relative;
+        top: 120px;
+    }
+}
+
+@media (max-width: 950px) {
+    .container {
+        font-size: 5rem;
+        position: relative;
+        top: 250px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container {
+        font-size: 3rem;
+        position: relative;
+        top: 270px;
+    }
+}
